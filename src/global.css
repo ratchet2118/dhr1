@@ -1,0 +1,33 @@
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active {
+  background: linear-gradient(90deg, #045bec 18.24%, #00d9d9 99.17%);
+  color: #fff;
+  border-radius: 50%;
+}
+
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active circle {
+  display: none;
+}
+
+/* .css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed {
+  background: linear-gradient(90deg, #045bec 18.24%, #00d9d9 99.17%);
+  color: #fff;
+  border-radius: 50%;
+} */
+
+@font-face {
+  font-family: 'Inter';
+  src: url('@/font/inter/Inter-VariableFont_slnt,wght.ttf');
+  font-display: wrap;
+}
+
+@font-face {
+  font-family: 'DM Sans';
+  src: url('@/font/DMSans/DMSans-VariableFont_opsz,wght.ttf');
+  font-display: wrap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('./font/Poppins/Poppins-Regular.ttf');
+  font-display: wrap;
+}

@@ -1,0 +1,160 @@
+.container {
+  display: flex;
+  padding: 24px;
+  flex-direction: column;
+  align-items: center;
+  gap: 17px;
+  align-self: stretch;
+  background-color: #fff;
+
+  .buttonContainer {
+    display: flex;
+    height: 38px;
+    width: 183px;
+    padding: 8px 22px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--button-radius, 6px);
+    background: var(
+      --DataLynn-Gradiant,
+      linear-gradient(90deg, #045bec 18.24%, #00d9d9 99.17%)
+    );
+    .content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: var(--dl-radius-image, 8px);
+      width: 160px;
+
+      .icon {
+        color: #fff;
+      }
+      .text {
+        color: var(--primary-contrast, #fff);
+        font-feature-settings:
+          'clig' off,
+          'liga' off;
+        font-family: Inter;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px; /* 173.333% */
+      }
+    }
+  }
+  .buttonContainer2 {
+    display: flex;
+    padding: 8px 22px;
+    height: 38px;
+    width: 183px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--button-radius, 6px);
+    background: var(
+      --DataLynn-Gradiant,
+      linear-gradient(90deg, #808080 18.24%, #808080 99.17%)
+    );
+
+    .content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: var(--dl-radius-image, 8px);
+      width: 160px;
+
+      .icon {
+        margin-left: 7px;
+        color: #fff;
+      }
+      .text {
+        color: var(--primary-contrast, #fff);
+        font-feature-settings:
+          'clig' off,
+          'liga' off;
+        font-family: Inter;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px; /* 173.333% */
+      }
+
+      .text::after {
+        content: '';
+        animation: dots 2s steps(1, end) infinite;
+        color: #ffffff 99.17%;
+        content: '';
+        display: inline-block; /* 保证元素是行内块元素 */
+        width: 20px; /*固定宽度，可以根据需要调整 */
+        text-align: left; /* 让文本左对齐 */
+        animation: dots 2s steps(1, end) infinite;
+      }
+    }
+  }
+
+  .bottomText {
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+    background: var(
+      --DataLynn-Gradiant,
+      linear-gradient(90deg, #045bec 18.24%, #00d9d9 99.17%)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+  }
+
+  .startButtonText {
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+    background: var(
+      --DataLynn-Gradiant,
+      linear-gradient(90deg, #045bec 18.24%, #00d9d9 99.17%)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+  }
+
+  .bottomText3 {
+    line-height: 20px;
+    color: white;
+  }
+
+  .bottomText::after {
+    content: '';
+    animation: dots 2s steps(1, end) infinite;
+    color: #00d9d9 99.17%;
+    content: '';
+    display: inline-block; /* 保证元素是行内块元素 */
+    width: 20px; /*固定宽度，可以根据需要调整 */
+    text-align: left; /* 让文本左对齐 */
+    animation: dots 2s steps(1, end) infinite;
+  }
+}
+
+@keyframes dots {
+  0%,
+  20% {
+    content: '';
+  }
+  40% {
+    content: '.';
+  }
+  60% {
+    content: '..';
+  }
+  80%,
+  100% {
+    content: '...';
+  }
+}

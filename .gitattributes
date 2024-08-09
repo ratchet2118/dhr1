@@ -1,0 +1,3 @@
+.firebaserc merge=ours
+.github/* merge=ours
+firebase-hosting-merge.yml merge=ours

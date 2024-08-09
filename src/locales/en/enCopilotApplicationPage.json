@@ -1,0 +1,9 @@
+{
+  "ca.header.title": "Interview Copilot",
+  "ca.header.exit": "Exit Interview",
+  "ca.messageInput.start": "Start Recording",
+  "ca.messageInput.startText": "Ensure the interviewer is ready in the meeting room since his voice is required to initiate copilot session.",
+  "ca.messageInput.generate": "Generate Answer",
+  "ca.meaageInput.generateText": "Recording In Progress",
+  "ca.messageInput.loading": "Loading"
+}

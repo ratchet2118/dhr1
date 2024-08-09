@@ -1,0 +1,9 @@
+{
+  "ca.header.title": "AI 面试精灵",
+  "ca.header.exit": "退出",
+  "ca.messageInput.start": "开始录音",
+  "ca.messageInput.startText": "请确保面试官已进入会议室，因为AI 面试精灵需要获取他的声音",
+  "ca.messageInput.generate": "生成答案",
+  "ca.meaageInput.generateText": "录音进行中",
+  "ca.messageInput.loading": "答案生成中"
+}

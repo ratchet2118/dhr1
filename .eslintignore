@@ -1,0 +1,12 @@
+
+node_modules/
+
+/dist
+/public
+/src/libs
+/docs/*.html
+
+**/services
+*.min.js
+**/auto
+/*.json

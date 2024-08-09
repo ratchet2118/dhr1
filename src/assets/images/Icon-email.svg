@@ -1,0 +1,17 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="email">
+<rect width="32" height="32" rx="16" fill="url(#paint0_linear_3184_9588)"/>
+<mask id="mask0_3184_9588" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="32" height="32">
+<rect id="Bounding box" width="32" height="32" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_3184_9588)">
+<path id="stacked_email" d="M12.6364 19.8889C12.2114 19.8889 11.8475 19.7366 11.5449 19.4319C11.2422 19.1273 11.0909 18.7611 11.0909 18.3333V10.5556C11.0909 10.1278 11.2422 9.76157 11.5449 9.45694C11.8475 9.15231 12.2114 9 12.6364 9H23.4545C23.8795 9 24.2434 9.15231 24.546 9.45694C24.8487 9.76157 25 10.1278 25 10.5556V18.3333C25 18.7611 24.8487 19.1273 24.546 19.4319C24.2434 19.7366 23.8795 19.8889 23.4545 19.8889H12.6364ZM18.0455 16.2333L12.6364 12.4417V18.3333H23.4545V12.4417L18.0455 16.2333ZM18.0455 14.3278L23.4545 10.5556H12.6364L18.0455 14.3278ZM9.54545 23C9.12045 23 8.75663 22.8477 8.45398 22.5431C8.15133 22.2384 8 21.8722 8 21.4444V11.7222H9.54545V21.4444H22.2955V23H9.54545Z" fill="white"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_3184_9588" x1="0.0272572" y1="15.9999" x2="31.7333" y2="15.9999" gradientUnits="userSpaceOnUse">
+<stop offset="0.183239" stop-color="#045BEC"/>
+<stop offset="1" stop-color="#00D9D9"/>
+</linearGradient>
+</defs>
+</svg>

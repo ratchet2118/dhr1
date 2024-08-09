@@ -1,0 +1,200 @@
+.wrapper {
+  display: flex;
+  padding: 80px 160px var(--none, 0px) 160px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  max-width: 1440px;
+  margin: 0px auto;
+  width: 100%;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    align-self: stretch;
+
+    .top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      align-self: stretch;
+
+      .companyContainer {
+        display: flex;
+        width: 256px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+
+        .company {
+          display: flex;
+          width: 150px;
+          justify-content: space-between;
+          align-items: center;
+
+          .logo {
+            display: flex;
+            width: 42px;
+            height: 30px;
+            justify-content: center;
+            align-items: center;
+            flex-shrink: 0;
+          }
+
+          .name {
+            width: 101px;
+            height: 26px;
+            flex-shrink: 0;
+          }
+        }
+        .description {
+          color: var(--Neutrals-2, #23262f);
+
+          /* Caption */
+          font-family: Poppins;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 24px; /* 171.429% */
+          width: 256px;
+        }
+      }
+
+      .copilotContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 32px;
+
+        .text {
+          color: var(--Neutrals-4, #777e90);
+          /* Button 2 */
+          font-family: 'DM Sans';
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 16px; /* 114.286% */
+          width: 160px;
+        }
+      }
+
+      .communityContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+
+        .joinText {
+          color: var(--Neutrals-2, #23262f);
+
+          /* Hairline 2 */
+          font-family: Poppins;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 12px; /* 100% */
+          text-transform: uppercase;
+        }
+        .iconContainer {
+          display: flex;
+          padding: 4px;
+          justify-content: center;
+          align-items: center;
+          border-radius: 100px;
+          color: #fff;
+          cursor: pointer;
+          background: var(
+            --Linear-Gradient,
+            linear-gradient(90deg, #045bec 18.24%, #00d9d9 99.17%)
+          );
+          .icon {
+            font-size: 24px;
+          }
+        }
+
+        .communityIconContainer {
+          display: flex;
+          align-items: flex-start;
+          gap: 16px;
+
+          .communityIcon {
+            width: 32px;
+            height: 32px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+
+    .bottom {
+      display: flex;
+      padding-bottom: 24px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 24px;
+      align-self: stretch;
+
+      .bottomText {
+        color: var(--Neutrals-2, #23262f);
+
+        /* Caption 2 */
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px; /* 166.667% */
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .wrapper {
+    padding: 80px 80px var(--none, 0px) 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    padding: 32px;
+    .container {
+      .top {
+        flex-direction: column;
+        gap: 32px;
+        .companyContainer {
+          width: 100%;
+          .description {
+            width: 100%;
+          }
+        }
+        .communityContainer {
+          align-items: center;
+          width: 100%;
+
+          .joinText {
+            text-align: start;
+            width: 100%;
+          }
+
+          .input {
+            width: 100%;
+          }
+
+          .communityIconContainer {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex: 1 0 0;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,131 @@
+.pricingContainer {
+  display: flex;
+  padding: 32px 32px 24px 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 26px;
+  border: 1px solid var(--DataLynn-Gradiant, #045bec);
+  background: #fff;
+  box-shadow: 0px 16px 52px 0px rgba(126, 138, 253, 0.07);
+  margin-bottom: 80px;
+  width: 100%;
+
+  .header {
+    font-family: Inter;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -1px;
+    background: var(
+      --DataLynn-Gradiant,
+      linear-gradient(90deg, #045bec 18.24%, #00d9d9 99.17%)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .info {
+    align-self: stretch;
+    color: #858a8f;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+  }
+
+  .content {
+    display: flex;
+    padding: var(--dl-radius-image, 8px) var(--none, 0px);
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+
+    .top {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      align-self: stretch;
+
+      .divider {
+        width: 1px;
+        height: var(--none, 196px);
+        background: #e7ebff;
+        margin-left: 16px;
+        margin-right: 16px;
+      }
+    }
+
+    .middle {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      .priceText {
+        font-family: Inter;
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        background: var(
+          --DataLynn-Gradiant,
+          linear-gradient(90deg, #045bec 18.24%, #00d9d9 99.17%)
+        );
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      .tokenText {
+        color: #858a8f;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+
+    .bottom {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      .buyButton {
+        display: flex;
+        padding: 8px 22px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: var(--button-radius, 6px);
+        background: var(
+          --DataLynn-Gradiant,
+          linear-gradient(90deg, #045bec 18.24%, #00d9d9 99.17%)
+        );
+        color: var(--primary-contrast, #fff);
+        font-feature-settings:
+          'clig' off,
+          'liga' off;
+        font-family: Inter;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px; /* 173.333% */
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .top {
+    flex-direction: column;
+    gap: 16px;
+    .divider {
+      display: none;
+    }
+  }
+}

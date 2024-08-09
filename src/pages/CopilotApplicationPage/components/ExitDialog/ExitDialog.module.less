@@ -1,0 +1,72 @@
+@import '@theme';
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    .header {
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 133.4%;
+        background: linear-gradient(90deg, #045BEC 18.24%, #00D9D9 99.17%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .text {
+        color: #000;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 35px;
+        text-transform: capitalize;
+    }
+
+    .bottom {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 10px;
+
+        .continueButton {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            letter-spacing: 0.46px;
+            background: @datalynn-blue1;
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            white-space: nowrap;
+            cursor: pointer;
+            font-family: "Inter";
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 22px;
+            padding: 4px 10px;
+        }
+
+        .exitButton {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            letter-spacing: 0.46px;
+            white-space: nowrap;
+            cursor: pointer;
+            font-family: "Inter";
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 22px;
+            padding: 4px 10px;
+            color: #D32F2F;
+            border: 1px solid #D32F2F;
+        }
+    }
+}

@@ -1,0 +1,59 @@
+@import '@theme';
+.videoContainer {
+  display: flex;
+  width: 256px;
+  height: 462px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 24px;
+  position: relative;
+  flex-shrink: 0;
+  scroll-snap-align: start;
+}
+
+.videoContainer2 {
+  display: flex;
+  width: 352px;
+  height: 628px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 24px;
+  position: relative;
+  flex-shrink: 0;
+  scroll-snap-align: start;
+
+  .video {
+    height: 100%;
+  }
+}
+
+@media (max-width: 1023px) {
+  .videoContainer {
+    width: 205px;
+    height: 370px;
+    gap: 5px;
+  }
+
+  .videoContainer2 {
+    width: 282px;
+    height: 502px;
+    gap: 5px;
+  }
+}
+@media (max-width: 768px) {
+  .videoContainer {
+    width: 77px;
+    height: 138px;
+    gap: 5px;
+  }
+
+  .videoContainer2 {
+    width: 120px;
+    height: 216px;
+    gap: 5px;
+  }
+}
